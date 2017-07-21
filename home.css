@@ -1,0 +1,148 @@
+body{
+	background-color: #dddddd;
+}
+.center{
+	width: 40px;
+	margin: 0 auto;
+}
+.num-name{
+	font-size: 18px;
+	text-align: center;
+}
+.dialog{
+	padding: 70px;
+	background-image: url('https://images6.alphacoders.com/521/521675.jpg');
+	background-size: 1350px;
+	background-repeat: no-repeat;
+
+}
+.dialog-text{
+	font-size: 50px;
+}
+.sym{
+	margin-right: 10px;
+	padding-bottom: 20px;
+	float: left;
+	width:50px;
+	font-size: 50px;
+}
+.topick{
+	margin: 20px;
+	border: 1px solid #bababa;
+	background-color: white;
+}
+.gap1{
+  margin: 0 3.5%;
+  min-width: 200px;
+}
+
+.symbol{
+	font-size: 80px;
+	text-align: center;
+	
+	margin: 0 auto;
+}
+.obj{
+	margin: 3.5%;
+}
+#headertitle{
+	color: #d7dfe8;
+ 
+}
+#topbar{
+	padding: 140px;
+	 align:center;
+	 background-repeat: no-repeat;
+	 background-size: 1350px;
+	 background-image: url('https://i.ytimg.com/vi/30daGH-8iD4/maxresdefault.jpg');
+	 border-bottom: 2px solid #333;
+	 border-top: 2px solid #333;
+}
+.headtitlebar{
+	margin:0 auto;
+	width:280px;
+}
+.num{
+	font-size: 35px;
+	text-align: center;
+	padding: 10px;
+}
+.buttonbar{
+	margin:0 auto;
+	width:150px;
+}
+#topButton{
+	font-size: 23px;
+	width: 120px;
+	color: #d7dfe8;
+	background-color: #086acc;
+	border: 2px solid #d7dfe8;
+	padding: 0 0px;
+}
+.box{
+	align:center;
+}
+.font{
+	font-family: 'Bellefair', serif;
+}
+.abouttext{
+	margin: 20px;
+	padding: 10px;
+	color: #333;
+	background-color: white;
+	border: 1px solid #bababa;
+}
+.about{
+	font-size: 18px;
+}
+.cata{
+	margin-left: 4.1%;
+
+}
+.footer{
+	padding: 20px;
+	width: ;
+	height: 400px;
+	background-color: #333;
+}
+.right-footer{
+	width:300px;
+	float :left;
+}
+.elements{
+	margin: 10px ;
+}
+.sym-element{
+	
+	
+}
+.left-footer{
+	float: right;
+
+	
+}
+.thumbnail{
+	border: 1px solid #bababa;
+}
+.company-footer{
+	margin-top: 30px;
+	background-color: white;
+}
+.company-name{
+  padding: 0px;
+}
+.company-sol{
+	padding-left: 20px;
+
+}
+a:hover{
+	text-decoration: none;
+
+}
+.top-title-view{
+	padding: 0px 20px;
+	margin: 0px 0px;
+}
+.title-names{
+
+}
