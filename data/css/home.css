@@ -45,6 +45,7 @@ body{
 #topbar{
 	 background-repeat: no-repeat;
 	 background-size: cover;
+	 padding: 100 0;
 	 background-image: url('https://i.ytimg.com/vi/30daGH-8iD4/maxresdefault.jpg');
 	 border-bottom: 2px solid #333;
 	 border-top: 2px solid #333;
@@ -62,12 +63,9 @@ body{
 }
 #topButton{
 	font-size: 23px;
-	width: 120px;
 	color: #d7dfe8;
-	background-color: #086acc;
 	border: 2px solid #d7dfe8;
-	padding: 0 0px;
-}
+	}
 .box{
 	align:center;
 }
@@ -134,5 +132,8 @@ body{
 	}
 	.sym{
 		font-size: 23px;
+	}
+	#topButton{
+		font-size: 18px;
 	}
 }
