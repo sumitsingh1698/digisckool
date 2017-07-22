@@ -12,12 +12,11 @@ body{
 .dialog{
 	padding: 70px;
 	background-image: url('https://images6.alphacoders.com/521/521675.jpg');
-	background-size: 1350px;
+	background-size: cover;
 	background-repeat: no-repeat;
 
 }
 .dialog-text{
-	font-size: 50px;
 }
 .sym{
 	margin-right: 10px;
@@ -50,10 +49,8 @@ body{
  
 }
 #topbar{
-	
-	 align:center;
 	 background-repeat: no-repeat;
-	 
+	 background-size: cover;
 	 background-image: url('https://i.ytimg.com/vi/30daGH-8iD4/maxresdefault.jpg');
 	 border-bottom: 2px solid #333;
 	 border-top: 2px solid #333;
@@ -118,8 +115,6 @@ body{
 }
 .left-footer{
 	float: right;
-
-	
 }
 .thumbnail{
 	border: 1px solid #bababa;
@@ -134,4 +129,12 @@ body{
 .company-sol{
 	padding-left: 20px;
 
+}
+@media only screen and (max-width: 480px){
+	h2{
+		font-size: 15px;
+	}
+	.sym{
+		font-size: 23px;
+	}
 }
