@@ -99,7 +99,7 @@ body{
 .footer{
 	padding: 20px;
 	width: ;
-	height: 400px;
+	
 	background-color: #333;
 }
 .right-footer{
@@ -120,15 +120,20 @@ body{
 	border: 1px solid #bababa;
 }
 .company-footer{
-	margin-top: 30px;
-	background-color: white;
+	background:none;
+	color: white;
 }
-.company-name{
+.namec{
   padding: 0px;
+  color: white;
 }
 .company-sol{
 	padding-left: 20px;
-
+    color:white;
+}
+#main-container{
+  margin: 0px 0px;
+  padding: 0px 0px;
 }
 @media only screen and (max-width: 480px){
 	.topic-text{
