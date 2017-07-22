@@ -1,13 +1,8 @@
 body{
 	background-color: #dddddd;
 }
-.center{
-	width: 40px;
-	margin: 0 auto;
-}
 .num-name{
-	font-size: 18px;
-	text-align: center;
+
 }
 .dialog{
 	padding: 70px;
@@ -16,7 +11,8 @@ body{
 	background-repeat: no-repeat;
 
 }
-.dialog-text{
+.second-part{
+	padding: 20px;
 }
 .sym{
 	margin-right: 10px;
@@ -41,9 +37,7 @@ body{
 	
 	margin: 0 auto;
 }
-.obj{
-	margin: 3.5%;
-}
+
 #headertitle{
 	color: #d7dfe8;
  
@@ -61,8 +55,6 @@ body{
 }
 .num{
 	font-size: 35px;
-	text-align: center;
-	padding: 10px;
 }
 .buttonbar{
 	margin:0 auto;
@@ -122,6 +114,7 @@ body{
 .company-footer{
 	background:none;
 	color: white;
+
 }
 .namec{
   padding: 0px;
