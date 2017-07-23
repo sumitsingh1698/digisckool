@@ -3,7 +3,7 @@
       <link rel="stylesheet" type="text/css" href="/static/css/home.css">
 </head>
 <body>
-<div class="container-fluid " id="main-container">
+<div class="container-fluid main-container">
   <div class="jumbotron-fluid text-center" id="topbar">
        
 	  	     <h1 class="font" id="headertitle">Digisckool</h1>
@@ -12,40 +12,57 @@
 	  	    <button class="btn btn-primary font" id="topButton">Take Tour</button>
        
   </div>
-  <div class="container-fluid second-part">
-       <div class="row font text-center">
-        	
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 obj">
-        		 <div class="center">
-        		   <span class="glyphicon glyphicon-user symbol" aria-hidden="true"></span>
-        		   <p class="num">433</p>
-        		   <p class="num-name">STUDENTS</p>
-             </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6  obj">
-    		     <div class="center">
-    		      <span class="glyphicon glyphicon-globe symbol" aria-hidden="true"></span>
-    		      <p class="num">433</p>
-    		      <p class="num-name">INSTRUCTOR</p>
-    		     </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 obj">
-        	   <div class="center">
-          		<span class="glyphicon glyphicon-folder-open symbol" aria-hidden="true"></span>
-          		<p class="num">433</p>
-          		<p class="num-name">COURSES</p>
-    		     </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 obj">
-        	   <div class="center">
-          		<span class="glyphicon glyphicon-education symbol" aria-hidden="true"></span>
-          		<p class="num">433</p>
-          		<p class="num-name">BOOKS</p>
-    	       </div>
-          </div>
 
-     </div>
- </div>
+  <div class="container cat">
+       
+       <div class="row">
+           
+           <a href="/books" class="links">      
+              <div class="col-lg-3 col-md-3 col-sm-3 cata text-center">
+                <div class="thumbnail">
+                   <img  class="img-responsive" src="http://pngimg.com/uploads/book/book_PNG2116.png">
+                   <div class="caption font">
+                      <h3>BOOKS</h3>
+                   </div>
+                </div>
+             </div>
+          </a>
+          <a href="/book" class="links">
+              <div class="col-lg-3 col-md-3 col-sm-3 cata text-center">
+                <div class="thumbnail">
+                   <img  class="img-responsive" src="https://myzone-qumu.netdna-ssl.com/wp-content/uploads/2015/05/VideoWall09.jpg">
+                   <div class="caption font">
+                      <h3>COURSES</h3>
+                   </div>
+                </div>
+              </div>
+          </a>
+          <a href="/book" class="links">
+            <div class="col-lg-3 col-md-3 col-sm-3 cata text-center">
+              <div class="thumbnail font">
+                <img  class="img-responsive" src="https://www.monticello.org/sites/default/files/styles/jsam_popup/public/legacy_files/jsam/viewer-content-images/Notes%20on%20the%20State%20of%20Virginia%20%28repeated_image%29.jpg?itok=n_ZkYD15">
+                <div class="caption">
+                  <h3>NOTES</h3>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="/book" class="links">
+            <div class="col-lg-3 col-md-3 col-sm-3 cata text-center">
+              <div class="thumbnail font">
+                <img  class="img-responsive" src="http://www.peoplemaps.com/main/wp-content/uploads/2014/04/Personality-Profiling-Software-And-Techniques.jpg">
+                <div class="caption">
+                  <h3>SOFTWARES</h3>
+                </div>
+              </div>
+            </div>
+          </a>
+    
+      </div>
+  
+  </div>
+
+
  <div class=" topick font container-fluid">
   		
       <div class="row">
@@ -88,7 +105,40 @@
   <div class="jumbotron-fluid dialog font">
       <h2 class="dialog-text">Study for Knowledege ,<br/>Not for Exam</h2>
   </div>
-  
+  <div class="container-fluid second-part">
+       <div class="row font text-center">
+          
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 obj">
+             <div class="center">
+               <span class="glyphicon glyphicon-user symbol" aria-hidden="true"></span>
+               <p class="num">433</p>
+               <p class="num-name">STUDENTS</p>
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6  obj">
+             <div class="center">
+              <span class="glyphicon glyphicon-globe symbol" aria-hidden="true"></span>
+              <p class="num">433</p>
+              <p class="num-name">INSTRUCTOR</p>
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 obj">
+             <div class="center">
+              <span class="glyphicon glyphicon-folder-open symbol" aria-hidden="true"></span>
+              <p class="num">433</p>
+              <p class="num-name">COURSES</p>
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 obj">
+             <div class="center">
+              <span class="glyphicon glyphicon-education symbol" aria-hidden="true"></span>
+              <p class="num">433</p>
+              <p class="num-name">BOOKS</p>
+             </div>
+          </div>
+
+     </div>
+ </div>
   <div class="container-fluid abouttext font">
   	     <h2 class="abouttitle">About</h2>
             <p class="about">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -99,43 +149,5 @@
               
   </div>
 
-  <div class="container">
-  	   
-       <div class="row">
-           
-           <a href="/books" class="links">  	  
-              <div class="col-lg-3 col-md-3 col-sm-3 cata">
-                <div class="thumbnail">
-        	         <img  class="img-responsive" src="http://pngimg.com/uploads/book/book_PNG2116.png">
-                   <div class="caption font">
-          	          <h3>BOOKS</h3>
-                   </div>
-                </div>
-             </div>
-          </a>
-          <a href="/book" class="links">
-              <div class="col-lg-3 col-md-3 col-sm-3 cata">
-                <div class="thumbnail">
-                   <img  class="img-responsive" src="https://myzone-qumu.netdna-ssl.com/wp-content/uploads/2015/05/VideoWall09.jpg">
-                   <div class="caption font">
-          	          <h3>COURSES</h3>
-                   </div>
-                </div>
-              </div>
-          </a>
-          <a href="/book" class="links">
-            <div class="col-lg-3 col-md-3 col-sm-3 cata">
-              <div class="thumbnail font">
-                <img  class="img-responsive" src="https://www.monticello.org/sites/default/files/styles/jsam_popup/public/legacy_files/jsam/viewer-content-images/Notes%20on%20the%20State%20of%20Virginia%20%28repeated_image%29.jpg?itok=n_ZkYD15">
-                <div class="caption">
-          	      <h3>NOTES</h3>
-                </div>
-              </div>
-            </div>
-          </a>
-    
-      </div>
   
-  </div>
-
   <% include partials/footer %>

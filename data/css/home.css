@@ -12,7 +12,10 @@ body{
 
 }
 .second-part{
-	padding: 20px;
+	padding-top: 30px;
+}
+.cat{
+	padding-top: 30px;
 }
 .sym{
 	margin-right: 10px;
@@ -40,7 +43,7 @@ body{
 
 #headertitle{
 	color: #d7dfe8;
- 
+     font-size: 50px;
 }
 #topbar{
 	 background-repeat: no-repeat;
@@ -82,10 +85,6 @@ body{
 .about{
 	font-size: 18px;
 }
-.cata{
-	margin-left: 4.1%;
-
-}
 .footer{
 	padding: 20px;
 	width: ;
@@ -121,8 +120,9 @@ body{
 .company-sol{
 	padding-left: 20px;
     color:white;
+    font-size:30px;
 }
-#main-container{
+.main-container{
   margin: 0px 0px;
   padding: 0px 0px;
 }
@@ -136,4 +136,21 @@ body{
 	#topButton{
 		font-size: 18px;
 	}
+	.about{
+		font-size: 14px;
+	}
+	#textarea{
+		width: 250px;
+	}
+	.namec{
+		font-size: 25px;
+	}
+	.company-sol{
+      font-size: 20px;
+	}
+}
+.book-title{
+	background-color: white;
+	margin-top: 0px;
+	padding: 10 0;
 }
