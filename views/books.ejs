@@ -5,21 +5,19 @@
         <h1>Books Collection</h1>
         <p>Free books pdf download</p>
     </div>
-    <div class="container-fluid ">
+    <div class="container-fluid books-container">
        <div class="row">
-     	    <div class="col-lg-2 col-sm-2 ">
+          <% for(var i=0 ; i<=12 ; i++){ %>
+          <a href="/">
+     	    <div class="col-lg-2 col-sm-4 col-xs-6 text-center">
             <img class="img-responsive" src="http://cdn.journaldev.com/wp-content/uploads/2014/11/Head_First_Java_Kathy_Sierra_Bert_Bates-389x450.jpg">
             
-            <div class="left-text-view" style="float:left;">
+            <div class="caption font name-item">
                 <p class="fonttitle-names">HEAD FIRST (java)</p>
             </div>
-            
-            <div class="right-button-view" style="float:right;">
-            	<button class="btn btn-default">
-             		<span class="glyphicon glyphicon-download" aria-hidden="true"></span>
-               </button>
-            </div>
      	    </div>
+          </a>
+          <% } %>
        </div>
     </div>
  </div>

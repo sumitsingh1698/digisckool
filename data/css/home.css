@@ -49,6 +49,7 @@ body{
 	 background-repeat: no-repeat;
 	 background-size: cover;
 	 padding: 100 0;
+	 background-attachment: fixed;
 	 background-image: url('https://i.ytimg.com/vi/30daGH-8iD4/maxresdefault.jpg');
 	 border-bottom: 2px solid #333;
 	 border-top: 2px solid #333;
@@ -124,8 +125,10 @@ body{
 }
 .main-container{
   margin: 0px 0px;
-  padding: 0px 0px;
+ padding: 0px 0px;
 }
+.books-container{ padding: 20 10; }
+.name-item{ font-size: 20px; color: #333; }
 @media only screen and (max-width: 480px){
 	.topic-text{
 		font-size: 15px;
@@ -148,9 +151,13 @@ body{
 	.company-sol{
       font-size: 20px;
 	}
+	.name-item{
+		font-size: 14px;
+	}
 }
 .book-title{
-	background-color: white;
+	background-color: #333;
+	color: white;
 	margin-top: 0px;
 	padding: 10 0;
 }
